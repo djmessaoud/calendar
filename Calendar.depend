@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1480114940 source:c:\users\mesut\documents\c++ projects\calendar\main.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+
