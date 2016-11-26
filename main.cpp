@@ -16,9 +16,12 @@ int main()
         if (leap(i)) nd+=366; else nd+=365;
     }
     for (int i=1;i<m;i++) {
-       if (i==2)  { if (leap(y)) nd+=29; else nd+=28; }
-       else if (i<8) { if (i%2==1) nd+=31; else nd+=30; }
-       else if (i>=8) { if (i%2==0) nd+=31; else nd+=30; }
+       if (i==2)
+            { if (leap(y)) nd+=29; else nd+=28; }
+       else if (i<8)
+        { if (i%2==1) nd+=31; else nd+=30; }
+       else if (i>=8)
+        { if (i%2==0) nd+=31; else nd+=30; }
     }
     nd+=d;
     index=((nd+1)%7);
